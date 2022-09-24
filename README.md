@@ -42,3 +42,9 @@ So it won't be maintained. Please, only use this for reference.
 
   display manager: lightdm
 
+### See also:
+[Qtile Website](http://www.qtile.org/)
+
+[Official Docs](https://docs.qtile.org/en/latest/)
+
+[Qtile - Arch Wiki](https://wiki.archlinux.org/title/Qtile#Configuration)
