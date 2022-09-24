@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+import os
+
+def check_vol():
+    volume_level_path = os.path.expanduser("~/.config/qtile/Scripts/volume_level.txt")
+    os.system(f"pamixer --get-volume > {volume_level_path}")
+    f = open(volume_level_path, "r")
+    return int(f.read())
+
+def send_notification():
+    vol = check_vol()
+    os.system(f'/usr/bin/notify-send "Volume Level" "{vol}" -t 300')
+
+def raise_vol():
+    vol = check_vol()
+    if vol < 100:
+        os.system(
+            '/usr/bin/sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"'
+        )
+    else:
+        pass
+    vol = check_vol()
+
+raise_vol()
+send_notification()

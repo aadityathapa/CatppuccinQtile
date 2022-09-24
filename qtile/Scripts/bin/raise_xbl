@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+import os
+
+
+def check_backlight_lvl():
+    backlight_lvl_path = os.path.expanduser(
+        "~/.config/qtile/Scripts/backlight_level.txt"
+    )
+    os.system(f"xbacklight > {backlight_lvl_path}")
+    file = open(backlight_lvl_path, "r")
+    return str(file.read())
+
+
+def send_notification():
+    backlight_lvl = check_backlight_lvl().split(".")
+    os.system(f'/usr/bin/notify-send "Brightness Level" "{backlight_lvl[0]}" -t 300')
+
+
+os.system("xbacklight -inc 10")
+send_notification()
