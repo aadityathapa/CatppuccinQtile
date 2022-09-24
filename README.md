@@ -1,11 +1,11 @@
-# Catppuccin_Qtile
-### I don't use this setup anymore.
+# Catppuccin Qtile 🐱
+### I don't use this setup anymore. 🛑
 So it won't be maintained. Please, only use this for reference.
 
-### Screenshots
+### Screenshots 📸
 ![Screenshot](https://i.redd.it/x1ra7fhiij691.jpg)
 
-### Programs I used:
+### Programs I used: 👨‍💻
   Wallpaper Program: nitrogen  
                                                                                                                               
   Compositor: picom  
@@ -42,7 +42,7 @@ So it won't be maintained. Please, only use this for reference.
 
   display manager: lightdm
 
-### See also:
+### See also: 📚
 - [Qtile Website](http://www.qtile.org/)
 - [Official Docs](https://docs.qtile.org/en/latest/)
 - [Qtile - Arch Wiki](https://wiki.archlinux.org/title/Qtile#Configuration)
