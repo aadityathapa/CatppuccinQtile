@@ -41,3 +41,4 @@ So it won't be maintained. Please, only use this for reference.
   lockscreen: betterlockscreen
 
   display manager: lightdm
+
