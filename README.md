@@ -1,5 +1,8 @@
 # Catppuccin_Qtile
-### I don't use this setup anymore, so It won't be maintained. Please only use this for reference.
+### I don't use this setup anymore.
+So it won't be maintained. Please, only use this for reference.
+
+### Screenshots
 ![Screenshot](https://i.redd.it/x1ra7fhiij691.jpg)
 
 ### Programs I used:
