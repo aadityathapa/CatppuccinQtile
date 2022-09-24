@@ -1,5 +1,5 @@
-# Catppuccin Qtile 🐱
-### I don't use this setup anymore. 🛑
+# Catppuccin Qtile🐱
+### I don't use this setup anymore!!
 So it won't be maintained. Please, only use this for reference.
 
 ### Screenshots 📸
